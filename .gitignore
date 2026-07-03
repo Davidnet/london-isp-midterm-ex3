@@ -1,0 +1,11 @@
+# Python / uv
+.venv/
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Generated outputs (reproducible by running the tool / notebook)
+app/out/
+
+# OS
+.DS_Store
