@@ -1,7 +1,8 @@
 ---
 title: "Audio steganography: ultrasonic AM detection, key-based LSB embedding, and a diffusion-based approach"
-subtitle: "(words: 0)"
-author: David Cardozo
+subtitle: |
+  (words: 695)\
+  Link: \textcolor{blue}{\url{https://hub.labs.coursera.org/connect/sharedfrwficmn}}
 date: 5 July 2026
 documentclass: tufte-handout
 classoption: [nobib, nols, justified]
@@ -183,7 +184,7 @@ into an ordinary differential equation solved with small Euler steps. The
 same latent therefore always produces the same audio, and the chain can be
 run in reverse: the receiver, holding the same trained network, walks the
 stego audio back to its latent, takes the DCT, and reads the signs. On a
-clean channel this recovery is exact.
+clean channel, this recovery is exact.
 
 *Imperceptibility.* While noise is being injected, an attention weight
 decides where it may go. The audio is mapped to a time-frequency grid with
